@@ -8,7 +8,7 @@ const StatsSection = () => {
   ];
 
   return (
-    <section className="w-full bg-gradient-to-r from-[#5E3BEE] to-[#9B37FD] py-7 px-4">
+    <section className="w-full bg-gradient-to-r from-[#5E3BEE] to-[#9B37FD] py-7 px-4 mb-6">
       <div className="max-w-2xl mx-auto flex flex-col md:flex-row items-center justify-around gap-8 md:gap-0">
         {stats.map((stat, index) => (
           <React.Fragment key={index}>
