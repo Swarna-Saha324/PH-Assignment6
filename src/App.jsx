@@ -1,4 +1,6 @@
 
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import React from 'react';
 import './App.css'
 import { Trash } from 'lucide-react';
 import { ToastContainer } from 'react-toastify';

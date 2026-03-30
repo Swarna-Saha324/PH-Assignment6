@@ -46,7 +46,7 @@ const Banner = () => {
       <div className="w-full lg:w-1/2 mt-12 lg:mt-0 relative flex justify-center lg:justify-end">
         <div className="relative w-full max-w-lg">
           <img 
-            src="/public/banner.png" 
+            src="/banner.png" 
             alt="Digital Interface"
             className="rounded-3xl object-cover w-full h-auto shadow-2xl"
           />
