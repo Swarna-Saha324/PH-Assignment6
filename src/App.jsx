@@ -10,6 +10,8 @@ import Banner from './Components/Banner';
 import StatsSection from './Components/StatsSection';
 import Ready from './Components/Ready';
 import Footer from './Components/Footer';
+import Pricing from './Components/Pricing';
+import Steps from './Components/Steps';
 
 function App() {
   return (
@@ -18,16 +20,13 @@ function App() {
 <Navbar></Navbar>
 <Banner></Banner>
 <StatsSection></StatsSection> 
+<Steps></Steps>
+<Pricing></Pricing>
 <Ready></Ready>
+
 <Footer></Footer>
 
-<button onClick={() => toast.success("Item deleted!")} className='btn btn-primary'>
-  Click Me
-</button>
-     
-    <Trash />
-      
-       toast.success("Item deleted!");
+
       
 </>
   )
