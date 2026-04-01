@@ -15,7 +15,7 @@ import Ready from './Components/Ready';
 import Footer from './Components/Footer';
 import Pricing from './Components/Pricing';
 import Steps from './Components/Steps';
-import Models from './Components/models';
+import Models from './Components/Models';
 import Cart from './Components/Cart';
 import { useState } from 'react';
 
