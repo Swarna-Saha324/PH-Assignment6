@@ -55,7 +55,7 @@ const handlebtn = () => {
     <div className="mt-6">
       <button 
   onClick={() => handlebtn()} 
-  disabled={buyBtn} 
+  
   className={`btn btn-primary btn-block ${buyBtn ? "bg-green-500 opacity-70" : "bg-gradient-to-r from-[#5E3BEE] to-[#9B37FD] text-white"}`}
 >
   {buyBtn ? "Added to Cart" : "Buy Now"}
