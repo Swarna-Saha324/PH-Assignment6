@@ -2,15 +2,29 @@
 
 DigiTools is a modern, high-performance web application built for browsing and managing premium digital tools and templates. This project focuses on a seamless user experience with a responsive design, dynamic cart management, and a clean, interactive UI.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Curated Collection: Browse a selection of premium AI writing tools and design template packs.
 
-## Expanding the ESLint configuration
+Dynamic Shopping Cart: Add or remove items in real-time with automatic total price calculation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Interactive UI/UX: Built with a focus on modern design principles using Tailwind CSS and DaisyUI.
+
+Responsive Navbar: Features a dynamic cart badge that updates as you shop.
+
+Toast Notifications: Instant feedback for user actions (e.g., "Item deleted!").
+
+
+## Tech Stack
+
+Frontend: React.js
+
+Build Tool: Vite
+
+Styling: Tailwind CSS & DaisyUI
+
+Icons: Lucide React & font Awsome
+
+Notifications: React-Toastify
