@@ -38,7 +38,7 @@ const Cart = ({ cartItems, setCartItems }) => {
                   />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">{item.title}</h3>
+                  <h3 className="font-semibold text-gray-900">{item.name}</h3>
                   <p className="text-gray-500 text-sm">${item.price}</p>
                 </div>
               </div>

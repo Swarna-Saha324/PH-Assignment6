@@ -33,7 +33,7 @@ function App() {
   return (
     <>
      <ToastContainer />
-<Navbar></Navbar>
+<Navbar cartItems={cartItems}></Navbar>
 <Banner></Banner>
 <StatsSection></StatsSection> 
 
