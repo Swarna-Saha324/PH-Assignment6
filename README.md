@@ -1,6 +1,6 @@
-# React + Vite
+# DigiTools - Premium Digital Products Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a modern, high-performance web application built for browsing and managing premium digital tools and templates. This project focuses on a seamless user experience with a responsive design, dynamic cart management, and a clean, interactive UI.
 
 Currently, two official plugins are available:
 
