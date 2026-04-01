@@ -1,10 +1,27 @@
-function ModelCard({ model }) {
+import React from 'react';
+import { useState } from 'react';
+import { toast } from "react-toastify";
+function ModelCard({ model,cartItems , setCartItems }) {
 
     const tagStyles = {
   "Best Seller": "bg-orange-100   text-orange-600",
   Popular: "bg-purple-100 text-purple-600",
   New: "bg-green-100 text-green-600",
 };
+
+const [buyBtn , setbuyBtn] = useState(false);
+const handlebtn = () => {
+   const isFound = cartItems.find((item) => item.id === model.id);
+
+    if (isFound) {
+      toast.error("Item already in cart!");
+      return;
+    }
+ setCartItems([...cartItems, model]);
+    setbuyBtn(true);
+    toast.success(`${model.name} added to cart!`)
+    
+}
     return(
       <div className="card w-96 bg-base-100 shadow-sm">
   <div className="card-body">
@@ -36,7 +53,13 @@ function ModelCard({ model }) {
       </ul>
     ))}
     <div className="mt-6">
-      <button className="btn btn-primary btn-block">Subscribe</button>
+      <button 
+  onClick={() => handlebtn()} 
+  disabled={buyBtn} 
+  className={`btn btn-primary btn-block ${buyBtn ? "bg-green-500 opacity-70" : "bg-gradient-to-r from-[#5E3BEE] to-[#9B37FD] text-white"}`}
+>
+  {buyBtn ? "Added to Cart" : "Buy Now"}
+</button>
     </div>
   </div>
 </div>
